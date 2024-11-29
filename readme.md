@@ -26,43 +26,43 @@ If you're interested in exploring other Computer Vision tasks beyond Object Dete
 
 - **Face Detection with the [WIDER FACE](https://shuoyang1213.me/WIDERFACE/) Dataset:** The WIDER FACE dataset consists of face images with various variations, divided into 12,880 training images and 3,226 validation images. Each image may contain one or multiple faces. The **YOLO11m** model from **Ultralytics** was fine-tuned, achieving a **mAP50** of **0.802** and a **mAP50-95** of **0.461** on the validation dataset. 
 
-- **Object Detection with the [COCO](https://cocodataset.org/#home) Dataset:** A subset of the COCO dataset was extracted, consisting of 10,135 images across 18 object classes, each containing a single bounding box per image. This subset was split into 80% for training and 20% for validation. The **EfficientNetV2-S** model was fine-tuned, achieving an **accuracy** of **97.29%** and an **average IoU** of **0.8555** on the validation dataset.  
+- **Object Detection with the [COCO](https://cocodataset.org/#home) Dataset:** A subset of the COCO dataset was extracted, consisting of 10,135 images across 18 object classes, each containing a single bounding box per image. This subset was split into 80% for training and 20% for validation. The **EfficientNetV2-S** model was fine-tuned, achieving an **accuracy** of **97.29%** and an **average IoU** of **0.856** on the validation dataset.  
 
-- **Object Detection with the [Caltech-101](https://data.caltech.edu/records/mzrjq-6wc02) Dataset:** The Caltech-101 dataset comprises 8,677 images categorized into 101 object classes, where each image contains only one bounding box. Since the dataset lacks a predefined split, it was divided into 80% for training and 20% for testing. The **EfficientNetV2-S** model was fine-tuned, achieving an **accuracy** of **98.21%** and an **average IoU** of **0.8789** on the test dataset.
+- **Object Detection with the [Caltech-101](https://data.caltech.edu/records/mzrjq-6wc02) Dataset:** The Caltech-101 dataset comprises 8,677 images categorized into 101 object classes, where each image contains only one bounding box. Since the dataset lacks a predefined split, it was divided into 80% for training and 20% for testing. The **EfficientNetV2-S** model was fine-tuned, achieving an **accuracy** of **98.21%** and an **average IoU** of **0.879** on the test dataset.
 
-- **Object Localization with the [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/) Dataset:** The CUB-200-2011 dataset comprises 11,788 images of 200 bird species, each with a single bounding box. It is split into 5,994 images for training and 5,794 for testing. The **EfficientNetV2-S** model was fine-tuned for the object localization task, focusing on predicting only the bounding box coordinates, achieving an **average IoU** of **0.9202** on the test dataset.
+- **Object Localization with the [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/) Dataset:** The CUB-200-2011 dataset comprises 11,788 images of 200 bird species, each with a single bounding box. It is split into 5,994 images for training and 5,794 for testing. The **EfficientNetV2-S** model was fine-tuned for the object localization task, focusing on predicting only the bounding box coordinates, achieving an **average IoU** of **0.92** on the test dataset.
 
-- **Simple Object Detection with the [MNIST](https://yann.lecun.com/exdb/mnist/) Dataset:** The MNIST dataset consists of grayscale images divided into 10 classes (digits 0-9), comprising 70,000 images: 60,000 for training and 10,000 for testing. Since the dataset does not include bounding boxes for the digits, an artificial variation was created. Each original 28x28 pixels image containing a digit was randomly placed on a black canvas of 112x112 pixels. A simple object detection model based on convolutional neural networks was then trained from scratch, achieving an **accuracy of** **99.3%** and an **average IoU** of **0.9477** on the test dataset.
+- **Simple Object Detection with the [MNIST](https://yann.lecun.com/exdb/mnist/) Dataset:** The MNIST dataset consists of grayscale images divided into 10 classes (digits 0-9), comprising 70,000 images: 60,000 for training and 10,000 for testing. Since the dataset does not include bounding boxes for the digits, an artificial variation was created. Each original 28x28 pixels image containing a digit was randomly placed on a black canvas of 112x112 pixels. A simple object detection model based on convolutional neural networks was then trained from scratch, achieving an **accuracy of** **99.3%** and an **average IoU** of **0.948** on the test dataset.
 
 ## **Some Results**
 
 <div align="center">
   <h2><b>VisDrone2019-DET Dataset</b></h2>
-  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_VisDrone2019_2.gif">
+  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_VisDrone2019_2.gif" style="width: 640px;">
 </div>
 
 ---
 <div align="center">
   <h2><b>Stanford Dogs Dataset</b></h2>
-  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_StanfordDogs.gif">
+  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_StanfordDogs.gif" style="width: 360px;">
 </div>
 
 ---
 <div align="center">
   <h2><b>Pascal VOC 2012 Dataset</b></h2>
-  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_PascalVOC.gif">
+  <img src="images_videos/videos_models/ObjectDetection_YOLO11l_PascalVOC.gif" style="width: 640px;">
 </div>
 
 ---
 <div align="center">
   <h2><b>DIOR-R Dataset</b></h2>
-  <img src="images_videos/videos_models/OBB_ObjectDetection_YOLO11l_DIOR-R_1.gif">
+  <img src="images_videos/videos_models/OBB_ObjectDetection_YOLO11l_DIOR-R_1.gif" style="width: 640px;">
 </div>
 
 ---
 <div align="center">
   <h2><b>WIDER FACE Dataset</b></h2>
-  <img src="images_videos/videos_models/FaceDetection_YOLO11m_WIDER-FACE_2.gif">
+  <img src="images_videos/videos_models/FaceDetection_YOLO11m_WIDER-FACE_2.gif" style="width: 640px;">
 </div>
 
 ---
